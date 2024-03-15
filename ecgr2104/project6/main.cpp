@@ -13,6 +13,9 @@ void test(){
     DoublyLinkedList<int> dllCopy = dll;
     
     dllCopy.push(4);
+    dllCopy.remove(1);
+    dllCopy.remove(0);
+    dllCopy.insert(5, 1);
     
     dll.print();
     dllCopy.print();
